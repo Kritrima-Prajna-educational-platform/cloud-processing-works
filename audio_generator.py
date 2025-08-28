@@ -142,25 +142,28 @@ def getSSMLFromLanguageCode(language_code):
     return None
 
 def generate_audio(text, target_language):
-    SSML = getSSMLFromLanguageCode(target_language)
-    if not SSML:
-        print(f"SSML not found for language code: {target_language}")
-        return None
+    try:
+        SSML = getSSMLFromLanguageCode(target_language)
+        if not SSML:
+            print(f"SSML not found for language code: {target_language}")
+            return "none"
 
-    url = "https://intelligence.kritrimaprajna.com/api/v1/audio/text-to-audio"
-    headers = {
-        "Content-Type": "application/json"
-    }
-    payload = {
-        "text": text,
-        "SSML": SSML
-    }
-    response = requests.post(url, headers=headers, json=payload)
-    if response.status_code == 200:
-        data = response.json()
-        return data['data']['file_url']
-    else:
-        return "nothing"
+        url = "https://intelligence.kritrimaprajna.com/api/v1/audio/text-to-audio"
+        headers = {
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "text": text,
+            "SSML": SSML
+        }
+        response = requests.post(url, headers=headers, json=payload)
+        if response.status_code == 200:
+            data = response.json()
+            return data['data']['file_url']
+        else:
+            return "none"
+    except:
+        return "none"
     
 
 
