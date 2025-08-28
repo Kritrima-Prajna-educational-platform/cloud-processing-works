@@ -24,6 +24,8 @@ language_to_translate = {
 }
 
 keys_to_translate = ['circuitInstructions', 'codeInstructions', "iotInstructions"]
+lesson_number=0
+print(f"Total Lessons: {len(lessons)}")
 for lesson in lessons:
     print(lesson['name'])
     for key in keys_to_translate:
@@ -46,5 +48,8 @@ for lesson in lessons:
                         lesson[key]['content'][language][index]['description'] = translated_text
                         lesson[key]['content'][language][index]['audio'] = audio_url
                         index += 1
+    print(f"Completed Lesson {lesson_number}\n")
+    lesson_number += 1
+print("All Lessons Completed")
 with open('./updated.json', 'w', encoding='utf-8') as outfile:
     json.dump(lessons, outfile, ensure_ascii=False, indent=4)
