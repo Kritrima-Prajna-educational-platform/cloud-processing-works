@@ -46,5 +46,7 @@ for lesson in lessons:
                         lesson[key]['content'][language][index]['description'] = translated_text
                         lesson[key]['content'][language][index]['audio'] = audio_url
                         index += 1
+                        break
+    break
 with open('./final.lessons.json', 'w', encoding='utf-8') as outfile:
     json.dump(lessons, outfile, ensure_ascii=False, indent=4)
