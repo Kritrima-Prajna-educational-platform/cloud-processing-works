@@ -1,0 +1,11 @@
+{
+  "name": "lesson-translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "python3 main.py"
+  },
+  "author": "Shivkumar Chauhan",
+  "license": "ISC"
+}
