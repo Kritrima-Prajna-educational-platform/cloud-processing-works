@@ -13,6 +13,7 @@ def translate_text(text, target_language):
     response = requests.post(url, headers=headers, json=payload)
     if response.status_code == 200:
         data = response.json()
+        print(data)
         return data['data']['translated_text']
     else:
         return text

@@ -48,9 +48,8 @@ for lesson in lessons:
                         language_code = language_to_translate[language]
                         translated_text = translate_text(step['description'], target_language=language_code)
                         audio_url = generate_audio(translated_text, target_language=language_code)
-                        # translated_text = lesson[key]['content']['default'][index]['description']
-                        # print(f"      Translated [{language}]: {translated_text}")
-                        # print(f"      Audio URL [{language}]: {audio_url}")
+                        print(f"      Translated [{language}]: {translated_text}")
+                        print(f"      Audio URL [{language}]: {audio_url}")
                         lesson[key]['content'][language][index]['description'] = translated_text
                         lesson[key]['content'][language][index]['audio'] = audio_url
                         index += 1
