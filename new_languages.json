@@ -1,0 +1,42 @@
+[
+	{
+		"language_id": "arabic",
+		"language_name": "Arabic",
+		"language_icon_link": "https://flagcdn.com/w2560/ae.png",
+		"language_description": "Arabic voice — ar-AE-FatimaNeural",
+		"language_ssml": "<speak xmlns=\"http://www.w3.org/2001/10/synthesis\" xmlns:mstts=\"http://www.w3.org/2001/mstts\" xmlns:emo=\"http://www.w3.org/2009/10/emotionml\" version=\"1.0\" xml:lang=\"ar-AE\"><voice name=\"ar-AE-FatimaNeural\"><prosody rate=\"0%\" pitch=\"0%\">",
+		"language_code": "ar",
+		"created_at": "1750350600000",
+		"user_id": "001329.d54007cf2bbc44f5ac86df4e9c28f027.0951"
+	},
+	{
+		"language_id": "indonesian",
+		"language_name": "Indonesian",
+		"language_icon_link": "https://flagcdn.com/w2560/id.png",
+		"language_description": "Indonesian voice — id-ID-GadisNeural",
+		"language_ssml": "<speak xmlns=\"http://www.w3.org/2001/10/synthesis\" xmlns:mstts=\"http://www.w3.org/2001/mstts\" xmlns:emo=\"http://www.w3.org/2009/10/emotionml\" version=\"1.0\" xml:lang=\"id-ID\"><voice name=\"id-ID-GadisNeural\"><prosody rate=\"0%\" pitch=\"0%\">",
+		"language_code": "id",
+		"created_at": "1750350600000",
+		"user_id": "001329.d54007cf2bbc44f5ac86df4e9c28f027.0951"
+	},
+	{
+		"language_id": "urdu",
+		"language_name": "Urdu",
+		"language_icon_link": "https://flagcdn.com/w2560/in.png",
+		"language_description": "Urdu voice — ur-IN-AishaNeural",
+		"language_ssml": "<speak xmlns=\"http://www.w3.org/2001/10/synthesis\" xmlns:mstts=\"http://www.w3.org/2001/mstts\" xmlns:emo=\"http://www.w3.org/2009/10/emotionml\" version=\"1.0\" xml:lang=\"ur-IN\"><voice name=\"ur-IN-SalmanNeural\"><prosody rate=\"0%\" pitch=\"0%\">",
+		"language_code": "ur",
+		"created_at": "1750350600000",
+		"user_id": "001329.d54007cf2bbc44f5ac86df4e9c28f027.0951"
+	},
+	{
+		"language_id": "gujarati",
+		"language_name": "Gujarati",
+		"language_icon_link": "https://flagcdn.com/w2560/in.png",
+		"language_description": "Gujarati voice — gu-IN-DhwaniNeural",
+		"language_ssml": "<speak xmlns=\"http://www.w3.org/2001/10/synthesis\" xmlns:mstts=\"http://www.w3.org/2001/mstts\" xmlns:emo=\"http://www.w3.org/2009/10/emotionml\" version=\"1.0\" xml:lang=\"gu-IN\"><voice name=\"gu-IN-DhwaniNeural\"><prosody rate=\"0%\" pitch=\"0%\">",
+		"language_code": "gu",
+		"created_at": "1750350600000",
+		"user_id": "001329.d54007cf2bbc44f5ac86df4e9c28f027.0951"
+	}
+]
